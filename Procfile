@@ -1,1 +1,1 @@
-web: node --loader esm app.mjs
+web: node --loader esm index.js
