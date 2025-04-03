@@ -1,20 +1,22 @@
 {
   "name": "parcial2",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs",
+    "postinstall": "npm install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "type": "module",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
